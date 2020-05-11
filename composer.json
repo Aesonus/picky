@@ -1,0 +1,20 @@
+{
+    "name": "aesonus/picky",
+    "description": "A small library for randomly picking a value",
+    "authors": [
+        {
+            "name": "Aesonus",
+            "email": "corylcomposinger@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "aesonus/test-lib": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aesonus\\Picky\\": "src/",
+            "Aesonus\\Tests\\": "tests/"
+        }
+    }
+}
